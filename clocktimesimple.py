@@ -15,7 +15,7 @@ def tictac():
     agora = strftime('%H:%M:%S')
     if agora != clock['text']:
         clock['text'] = agora
-    clock.after(100, tictac)
+    clock.after(500, tictac)
 
 
 tictac()
